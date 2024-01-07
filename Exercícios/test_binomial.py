@@ -1,4 +1,4 @@
-import funcao_binomial
+import Atividades.funcao_binomial as funcao_binomial
 
 def test_binomial():
     assert funcao_binomial.binomial(5, 3) == 10

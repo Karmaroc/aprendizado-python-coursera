@@ -6,7 +6,15 @@ n2 = int(input("Digite um número: "))
 resto = 1
 
 while resto > 0:
-    resto = n1 % n2
+    if n1 < n2:
+        x = n1
+        n1 = n2
+    else:
+        if n1 > n2:
+            x = n2
+        
+    resto = n1 % x
+    
     if resto == 0:
         break
     
@@ -16,11 +24,11 @@ while resto > 0:
         break
             
 if n2 == 0:
-    print(resto)
+    print("valor", resto)
 else:
     if n2 == 1:
         print(n2)
     else:
         if resto == 0:
-            print(1)
+            print(n2)
     

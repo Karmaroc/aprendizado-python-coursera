@@ -10,6 +10,8 @@ def fator_primo(n):
             primo.append(i)
     return primo
 
+print(fator_primo(numero))
+
 def lista(x):
     incremento = 0
     lista_nova = []

@@ -1,0 +1,1 @@
+print(f'{m} ** 3 = {somas}')
